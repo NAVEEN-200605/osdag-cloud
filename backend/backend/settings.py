@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ndo!x#2o**i==0*h^!v0$s&so_m2mx_x+vvngqdlmejxa2181g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-LOWED_HOSTS = ['osdag-backend.onrender.com', 'localhost']
+LOWED_HOSTS = ['osdag-backend.onrender.com', 'localhost','127.0.0.1']
 
 
 # Application definition
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'backend.backend.urls'
 
 TEMPLATES = [
     {
