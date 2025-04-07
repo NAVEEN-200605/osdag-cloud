@@ -31,7 +31,6 @@ LOWED_HOSTS = ['osdag-backend.onrender.com', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
-    'connections',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
